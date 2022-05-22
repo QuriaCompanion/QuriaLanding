@@ -33,7 +33,7 @@ li img {
 }
 
 main {
-    background-image: url("background.png");
+    background-image: url("backgroundMain.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,19 +60,22 @@ main button {
 }
 
 .first-section {
-    height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5% 0;
 }
 
-.first-section div {
-    width: 40%;
-    height: 60vh;
+.text {
+    width: 50%;
 }
 
 .first-section img {
-    width: 50%;
+    width: 80%;
+}
+
+.img{
+    width: 30%;
 }
 
 .titleSection {
@@ -128,4 +131,14 @@ img {
 
 .feature h3{
     padding-bottom: 5%;
+}
+
+@media screen and (max-width: 930px) {
+    .first-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text{
+        width: 80%;
+    }
 }
