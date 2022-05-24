@@ -7,7 +7,7 @@ function changeFeature(id) {
       title.innerText = "Personnage";
       text.innerText =
         "En arrivant sur notre application, vous aurez accès à l'ensemble de l'équipement présent sur votre personnage avec la possibilité de le changer ou bien d'en voir toutes les possibilités.";
-      img.src = "assets/img/profile.png";
+      img.src = "assets/img/profile.webp";
       break;
     case "2":
       title.innerText = "Création d'équipements";
@@ -19,7 +19,7 @@ function changeFeature(id) {
       title.innerText = "Coffre";
       text.innerText =
         "Vous retrouverez l'ensemble de vos armes et armures dans la catégorie coffre de notre application. Vous pourrez y accéder selon le type d'armes ou d'armures présent. En cliquant sur l'un de vos items, vous aurez le choix de directement le transférer sur votre personnage actuellement sélectionné en cliquant sur le bouton TRANSFÉRER ou en voir les spécificités en cliquant sur le bouton DETAILS.";
-      img.src = "assets/img/vault.png";
+      img.src = "assets/img/vault.webp";
       break;
     case "4":
       title.innerText = "Collection";
