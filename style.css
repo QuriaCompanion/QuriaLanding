@@ -8,13 +8,27 @@ nav {
     background-color: #0C0E13;
 }
 
-ul,
+ul {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+}
+
 footer {
     height: 4vh;
     padding: 1%;
     display: flex;
     align-items: center;
     list-style-type: none;
+    background-color: #07080b;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    color: white;
 }
 
 li {
@@ -33,7 +47,7 @@ li img {
 }
 
 main {
-    background-image: url("backgroundMain.png");
+    background-image: url("assets/img/backgroundMain.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +85,7 @@ main button {
 }
 
 .first-section img {
-    width: 80%;
+    width: 100%;
 }
 
 .img{
@@ -84,7 +98,6 @@ main button {
 
 .second-section {
     background-color: #0C0E13;
-    height: 80vh;
     display: flex;
 }
 
@@ -110,8 +123,7 @@ main button {
 }
 
 .divider {
-    margin-top: 5%;
-    height: 80%;
+    margin: 5% 0;
     border-left: 3px solid white;
 }
 
@@ -119,18 +131,36 @@ main button {
     width: 40%;
     padding: 5%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     color: white;
 }
 
+.text-feature{
+    margin: 30% 0;
+}
+
+.text-feature h3 {
+    text-align: center;
+}
+
 img {
     object-fit: cover;
-    height: 50%;
+    width: 80%;
     margin-bottom: 10%;
 }
 
 .feature h3{
     padding-bottom: 5%;
+}
+
+#feature-text {
+    font-size: 20px;
+}
+
+#feature-title {
+    font-size: 30px;
 }
 
 @media screen and (max-width: 930px) {
@@ -140,5 +170,21 @@ img {
     }
     .text{
         width: 80%;
+    }
+    .second-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature-selection, .feature, .divider{
+        width: 80%;
+    }
+    .divider{
+        margin-top: 0;
+        border-top: 3px solid white;
+        border-left: none;
+    }
+    .text-feature{
+        margin: 15% 0;
     }
 }
