@@ -13,7 +13,7 @@ function changeFeature(id) {
       title.innerText = "Création d'équipements";
       text.innerText =
         "À l'aide de notre créateur d'équipements, vous allez pouvoir créer un équipement qui vous correspond en choisissant l'éxotique de votre choix, les statistiques qui sont les plus importantes pour vous ainsi que de nombreux autres paramètres. Après avoir choisi ces paramètres, nous vous soumettrons les différents équipements qui correspondent à vos précédents choix afin que vous choisissiez les équipements qui VOUS correspondent.";
-      img.src = "assets/img/builder.png";
+      img.src = "assets/img/builder.webp";
       break;
     case "3":
       title.innerText = "Coffre";
@@ -25,7 +25,7 @@ function changeFeature(id) {
       title.innerText = "Collection";
       text.innerText =
         "Vous pourrez retrouver l'ensemble des armes et armures présents dans Destiny 2 dans l'onglet Collection. Vous y trouverez les statistiques de l'item ainsi que tous ses attributs et son origine.";
-      img.src = "assets/img/collection.png";
+      img.src = "assets/img/collection.webp";
       break;
   }
 }
