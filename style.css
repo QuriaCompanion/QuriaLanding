@@ -71,13 +71,14 @@ main h2 {
     padding: 1% 15%;
 }
 
-main button {
-    margin-top: 1%;
-    padding: 1%;
+
+.link-button {
+    width: 100px;
+    padding:20px;
     border-radius: 10px;
-    border: none;
-    color: white;
     background-color: #1F222C;
+    color: white;
+    border: none;
 }
 
 .first-section {
@@ -85,6 +86,18 @@ main button {
     justify-content: space-around;
     align-items: center;
     padding: 5% 0;
+}
+.third-section {
+    background-color: #0C0E13;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
+}
+.third-section h2 {
+    margin-bottom: 25px;
 }
 
 .text {
@@ -168,6 +181,13 @@ img {
 
 #feature-title {
     font-size: 30px;
+}
+.class-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
 }
 .contact-section{
     width: 100%; 
